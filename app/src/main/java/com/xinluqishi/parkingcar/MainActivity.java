@@ -19,7 +19,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void loadImage(View view) {
-        String url = "http://cn.bing.com/az/hprichbg/rb/Dongdaemun_ZH-CN10736487148_1920x1080.jpg";
+//        String url = "http://cn.bing.com/az/hprichbg/rb/Dongdaemun_ZH-CN10736487148_1920x1080.jpg";
+        String url = "http://p1.pstatp.com/large/166200019850062839d3";
+//        Glide.with(this).load(url).placeholder(R.drawable.ico_address_home).into(imageView);
         Glide.with(this).load(url).placeholder(R.drawable.ico_address_home).into(imageView);
     }
 
