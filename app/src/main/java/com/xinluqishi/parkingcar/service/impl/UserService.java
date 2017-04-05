@@ -12,7 +12,7 @@ public class UserService implements IUserService{
 
 
     @Override
-    public void login(final String username, final String password, OnLoginListener loginListener) {
+    public void login(final String username, final String password, final OnLoginListener loginListener) {
         new Thread() {
             @Override
             public void run() {
@@ -25,7 +25,10 @@ public class UserService implements IUserService{
                 if ("shikeyue".equals(username) && "123".equals(password)) {
                     User user = new User();
                     user.setUsername(username);
-
+                    user.setPassword(password);
+                    loginListener.loginSuccess(user);
+                } else {
+                    loginListener.loginFailed();
                 }
             }
         }.start();
