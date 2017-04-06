@@ -81,6 +81,19 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/login_btn_login"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="38.5dp"
+                android:layout_marginLeft="8.25dp"
+                android:layout_marginRight="8.5dp"
+                android:layout_weight="1"
+                android:background="@drawable/selector_cbtn_blue"
+                android:text="@string/login_button"
+                android:textColor="#fff"
+                android:textSize="15sp" />
+
+            <Button
                 android:id="@+id/login_btn_reg"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
@@ -93,19 +106,6 @@
                 android:textColor="#fff"
                 android:textSize="15sp" />
 
-            <Button
-                android:id="@+id/login_btn_login"
-                style="?android:attr/borderlessButtonStyle"
-                android:layout_width="match_parent"
-                android:layout_height="38.5dp"
-                android:layout_marginLeft="8.25dp"
-                android:layout_marginRight="8.5dp"
-                android:layout_weight="1"
-                android:background="@drawable/selector_cbtn_blue"
-                android:enabled="false"
-                android:text="@string/login_button"
-                android:textColor="#fff"
-                android:textSize="15sp" />
         </LinearLayout>
     </LinearLayout>
 
