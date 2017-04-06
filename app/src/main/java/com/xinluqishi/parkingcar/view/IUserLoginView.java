@@ -6,7 +6,7 @@ import com.xinluqishi.parkingcar.model.User;
  * Created by shikeyue on 17/4/5.
  */
 
-public interface ILoginView {
+public interface IUserLoginView {
 
     String getUserName();
 

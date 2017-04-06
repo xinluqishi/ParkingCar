@@ -12,7 +12,7 @@ import com.xinluqishi.parkingcar.model.User;
  * Created by shikeyue on 17/4/5.
  */
 
-public class UserLoginActivity extends AppCompatActivity implements ILoginView {
+public class UserLoginActivity extends AppCompatActivity implements IUserLoginView {
 
     private EditText editTextUsername, editTextPassword;
 
