@@ -45,7 +45,7 @@
             <EditText
                 android:id="@+id/login_edit_username"
                 style="@style/login_etxt_style"
-                android:hint="@string/login_edit_username"
+                android:hint="@string/login_username"
                 android:inputType="number"
                 android:maxLength="11" />
         </LinearLayout>
@@ -64,7 +64,7 @@
             <EditText
                 android:id="@+id/login_edit_check"
                 style="@style/login_etxt_style"
-                android:hint="@string/login_edit_check"
+                android:hint="@string/login_password"
                 android:inputType="numberPassword"
                 android:maxLength="6" />
 
@@ -89,7 +89,7 @@
                 android:layout_marginRight="8.25dp"
                 android:layout_weight="1"
                 android:background="@drawable/shape_cbtn_orange"
-                android:text="@string/login_btn_reg"
+                android:text="@string/login_clear"
                 android:textColor="#fff"
                 android:textSize="15sp" />
 
@@ -103,7 +103,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/selector_cbtn_blue"
                 android:enabled="false"
-                android:text="@string/login_btn_login"
+                android:text="@string/login_button"
                 android:textColor="#fff"
                 android:textSize="15sp" />
         </LinearLayout>

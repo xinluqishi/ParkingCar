@@ -13,6 +13,19 @@
 
     </style>
 
+    <!--borderColor的一条线-->
+    <style name="lineStyle_borderColor">
+        <item name="android:background">@color/borderColor</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.5dp</item>
+    </style>
 
+    <style name="login_etxt_style">
+        <item name="android:layout_height">43dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">@dimen/text_size_12</item>
+    </style>
 
 </resources>

@@ -1,4 +1,10 @@
 <resources>
+
     <string name="app_name">ParkingCar</string>
+    <string name="login_title">登陆</string>
+    <string name="login_username">用户名称</string>
+    <string name="login_password">用户密码</string>
+    <string name="login_button">登陆</string>
+    <string name="login_clear">清空</string>
 
 </resources>
