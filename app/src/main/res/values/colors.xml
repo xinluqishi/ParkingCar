@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#afafaf</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="textColorPrimary">#232323</color>
+    <color name="windowBackground">#ceafaf</color>
+    <color name="startPoint">#44bbf0</color>
+    <color name="sysBg">#f1f1f1</color>
+    <color name="borderColor">#dee3de</color>
+    <color name="btnTextColor">#d9d9d9</color>
+    <color name="btnEnTextColor">#a7a6a6</color>
+    <color name="colorTip">#959494</color>
+    <color name="warnTxt">#605c5a</color>
+    <color name="deepGray">#5e5e5e</color>
+    <!--activity_main START-->
+    <!--标题设置-->
+    <color name="mainTitleBg">#fafafa</color>
+    <color name="mainTitleIcon">#999999</color>
+    <!--业务选择框-->
+    <color name="mainMapBg">#fdfbfc</color>
+    <color name="mainTxt">#737373</color>
+    <color name="mainSTxt">#fdb12c</color>
+    <color name="mainMapSelect">#f6f6f6</color>
+    <color name="mainTxtSelect">#333333</color>
+    <color name="mainTxtNoSelect">#959595</color>
+    <color name="barcolor">#bbbaba</color>
+    <color name="lawcolor">#383838</color>
+    <color name="ampm_text_color">#8c8c8c</color>
+    <!--activity_main END-->
+
 </resources>
