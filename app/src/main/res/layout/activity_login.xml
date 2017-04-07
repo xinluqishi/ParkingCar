@@ -62,7 +62,7 @@
             android:paddingLeft="13dp">
 
             <EditText
-                android:id="@+id/login_edit_check"
+                android:id="@+id/login_edit_password"
                 style="@style/login_etxt_style"
                 android:hint="@string/login_password"
                 android:inputType="numberPassword"
@@ -71,6 +71,11 @@
         </LinearLayout>
 
         <View style="@style/lineStyle_borderColor" />
+
+        <ProgressBar
+            android:id="@+id/pb_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -94,7 +99,7 @@
                 android:textSize="15sp" />
 
             <Button
-                android:id="@+id/login_btn_reg"
+                android:id="@+id/login_btn_clear"
                 style="?android:attr/borderlessButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="38.5dp"
