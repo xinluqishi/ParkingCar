@@ -8,7 +8,6 @@ import com.xinluqishi.parkingcar.service.impl.UserService;
 import com.xinluqishi.parkingcar.service.util.OnLoginListener;
 import com.xinluqishi.parkingcar.view.IUserLoginView;
 
-import java.util.logging.LogRecord;
 
 /**
  * Created by shikeyue on 17/4/6.
