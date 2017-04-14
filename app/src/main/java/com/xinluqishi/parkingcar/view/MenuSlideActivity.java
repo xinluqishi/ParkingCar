@@ -1,4 +1,4 @@
-package com.xinluqishi.parkingcar;
+package com.xinluqishi.parkingcar.view;
 
 import android.support.v7.app.AppCompatActivity;
 

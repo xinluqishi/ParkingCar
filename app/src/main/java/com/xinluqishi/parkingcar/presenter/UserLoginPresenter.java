@@ -2,10 +2,10 @@ package com.xinluqishi.parkingcar.presenter;
 
 import android.os.Handler;
 
-import com.xinluqishi.parkingcar.model.User;
-import com.xinluqishi.parkingcar.service.IUserService;
-import com.xinluqishi.parkingcar.service.impl.UserService;
-import com.xinluqishi.parkingcar.service.util.OnLoginListener;
+import com.xinluqishi.parkingcar.model.entity.User;
+import com.xinluqishi.parkingcar.model.service.IUserService;
+import com.xinluqishi.parkingcar.model.service.impl.UserService;
+import com.xinluqishi.parkingcar.model.service.util.OnLoginListener;
 import com.xinluqishi.parkingcar.view.IUserLoginView;
 
 

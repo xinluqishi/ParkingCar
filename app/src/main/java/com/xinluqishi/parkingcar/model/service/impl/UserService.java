@@ -1,8 +1,8 @@
-package com.xinluqishi.parkingcar.service.impl;
+package com.xinluqishi.parkingcar.model.service.impl;
 
-import com.xinluqishi.parkingcar.model.User;
-import com.xinluqishi.parkingcar.service.IUserService;
-import com.xinluqishi.parkingcar.service.util.OnLoginListener;
+import com.xinluqishi.parkingcar.model.entity.User;
+import com.xinluqishi.parkingcar.model.service.IUserService;
+import com.xinluqishi.parkingcar.model.service.util.OnLoginListener;
 
 /**
  * Created by shikeyue on 17/4/5.

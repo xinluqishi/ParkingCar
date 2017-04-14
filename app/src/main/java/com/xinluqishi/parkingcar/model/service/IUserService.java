@@ -1,6 +1,6 @@
-package com.xinluqishi.parkingcar.service;
+package com.xinluqishi.parkingcar.model.service;
 
-import com.xinluqishi.parkingcar.service.util.OnLoginListener;
+import com.xinluqishi.parkingcar.model.service.util.OnLoginListener;
 
 /**
  * Created by shikeyue on 17/4/5.

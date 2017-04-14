@@ -9,7 +9,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.xinluqishi.parkingcar.R;
-import com.xinluqishi.parkingcar.model.User;
+import com.xinluqishi.parkingcar.model.entity.User;
 import com.xinluqishi.parkingcar.presenter.UserLoginPresenter;
 
 /**

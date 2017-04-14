@@ -1,4 +1,4 @@
-package com.xinluqishi.parkingcar.model;
+package com.xinluqishi.parkingcar.model.entity;
 
 /**
  * Created by shikeyue on 17/4/5.

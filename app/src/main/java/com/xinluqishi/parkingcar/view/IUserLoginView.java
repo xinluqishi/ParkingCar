@@ -1,6 +1,6 @@
 package com.xinluqishi.parkingcar.view;
 
-import com.xinluqishi.parkingcar.model.User;
+import com.xinluqishi.parkingcar.model.entity.User;
 
 /**
  * Created by shikeyue on 17/4/5.
