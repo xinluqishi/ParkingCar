@@ -1,5 +1,6 @@
 package com.xinluqishi.parkingcar.base.model.entity;
 
+import com.xinluqishi.parkingcar.ParkingCarApplication;
 import com.xinluqishi.parkingcar.base.BaseApplication;
 
 /**
@@ -13,7 +14,7 @@ public enum SingleEnum {
     private BaseApplication baseApplicationSingle;
 
     private SingleEnum() {
-        baseApplicationSingle = new BaseApplication();
+        baseApplicationSingle = new ParkingCarApplication();
     }
 
     public BaseApplication getInstance() {

@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 
 import com.xinluqishi.parkingcar.ParkingCarApplication;
 import com.xinluqishi.parkingcar.base.BaseApplication;
+import com.xinluqishi.parkingcar.base.model.service.ApiServiceFactory;
 
 /**
  * Created by shikeyue on 17/4/14.
@@ -19,6 +20,10 @@ public class ParkingCarAppActivity extends BaseActivity{
 
     protected ParkingCarApplication getParkingCarApplication() {
         return (ParkingCarApplication) BaseApplication.getBaseApplication();
+    }
+
+    protected ApiServiceFactory getApi() {
+        return new ApiServiceFactory(this);
     }
 
 }
