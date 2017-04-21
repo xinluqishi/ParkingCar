@@ -83,7 +83,7 @@ public class UserLoginActivity extends AppCompatActivity implements IUserLoginVi
     @Override
     public void toMainActivity(User user) {
         Toast.makeText(this, user.getUsername() +
-                " login success , to MainAppActivity", Toast.LENGTH_SHORT).show();
+                " login success , to MainActivity", Toast.LENGTH_SHORT).show();
     }
 
     @Override

@@ -1,7 +1,7 @@
 package com.xinluqishi.parkingcar.base.model.service;
 
 
-import com.xinluqishi.parkingcar.base.view.ParkingCarAppActivity;
+import com.xinluqishi.parkingcar.ParkingCarActivity;
 
 /**
  * Retrofit OkHttp Service Class
@@ -10,10 +10,10 @@ import com.xinluqishi.parkingcar.base.view.ParkingCarAppActivity;
  */
 public class ApiServiceFactory {
 
-    private ParkingCarAppActivity parkingCarAppActivity;
+    private ParkingCarActivity parkingCarActivity;
 
-    public ApiServiceFactory(ParkingCarAppActivity parkingCarAppActivity) {
-        this.parkingCarAppActivity = parkingCarAppActivity;
+    public ApiServiceFactory(ParkingCarActivity parkingCarActivity) {
+        this.parkingCarActivity = parkingCarActivity;
     }
 
     public ApiUserService getUserService() {

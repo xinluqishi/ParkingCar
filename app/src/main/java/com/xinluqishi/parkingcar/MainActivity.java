@@ -5,9 +5,8 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
-import com.xinluqishi.parkingcar.base.view.ParkingCarAppActivity;
 
-public class MainAppActivity extends ParkingCarAppActivity {
+public class MainActivity extends ParkingCarActivity {
 
     ImageView imageView;
 
