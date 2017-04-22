@@ -1,9 +1,6 @@
 package com.xinluqishi.parkingcar;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-
-import com.xinluqishi.parkingcar.ParkingCarApplication;
 import com.xinluqishi.parkingcar.base.BaseApplication;
 import com.xinluqishi.parkingcar.base.model.entity.ApiResult;
 import com.xinluqishi.parkingcar.base.model.service.ApiServiceFactory;
@@ -23,7 +20,7 @@ import rx.schedulers.Schedulers;
 public class ParkingCarActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 
