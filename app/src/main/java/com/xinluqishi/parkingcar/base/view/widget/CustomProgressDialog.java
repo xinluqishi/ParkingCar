@@ -8,11 +8,13 @@ import android.view.Gravity;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.xinluqishi.parkingcar.R;
+
 /**
  * 自定义提示框
  */
-
 public class CustomProgressDialog extends Dialog {
+
     private Context context = null;
     private static CustomProgressDialog customProgressDialog = null;
 
@@ -24,6 +26,7 @@ public class CustomProgressDialog extends Dialog {
     public CustomProgressDialog(Context context, int theme) {
         super(context, theme);
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         setCanceledOnTouchOutside(false);
@@ -38,6 +41,7 @@ public class CustomProgressDialog extends Dialog {
 
         return customProgressDialog;
     }
+
     @Override
     public void onWindowFocusChanged(boolean hasFocus){
 
