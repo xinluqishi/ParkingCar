@@ -83,4 +83,29 @@ public class ApiService {
                 .build();
 
     }
+
+    /**
+     * 得到实例
+     * @return
+     */
+    public static ApiService getInstance(String baseUrl){
+        if(apiService == null){
+            synchronized (ApiService.class){
+                if(apiService == null){
+                    apiService = new ApiService(baseUrl);
+                }
+            }
+        }
+        return apiService;
+    }
+
+    /**
+     * 得到具体的Service
+     * @param service
+     * @param <T>
+     * @return
+     */
+    public <T> T create(Class<T> service){
+        return retrofit.create(service);
+    }
 }

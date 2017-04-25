@@ -1,4 +1,4 @@
-package com.xinluqishi.parkingcar.base.model.entity;
+package com.xinluqishi.parkingcar.base.model.EnumObject;
 
 import com.xinluqishi.parkingcar.ParkingCarApplication;
 import com.xinluqishi.parkingcar.base.BaseApplication;
