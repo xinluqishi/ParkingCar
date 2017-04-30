@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 /**
  * 验证类
- * Created by huangzhe on 2016/11/25.
+ * Created by shikeyue on 2016/11/25.
  */
 
 public class Validator {

@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * 解析Content类型
- * Created by huangzhe on 2017/4/18.
+ * Created by shikeyue on 2017/4/18.
  */
 
 public class ContentTypeAdapterFactory implements TypeAdapterFactory {
