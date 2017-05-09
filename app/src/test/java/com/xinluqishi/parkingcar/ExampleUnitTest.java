@@ -15,9 +15,5 @@ public class ExampleUnitTest {
         assertEquals(4, 2 + 2);
     }
 
-    @Test
-    public void test_lambda_method() throws Exception {
-        ParkingCarActivity activity = new ParkingCarActivity();
-        activity.subscribe();
-    }
+
 }

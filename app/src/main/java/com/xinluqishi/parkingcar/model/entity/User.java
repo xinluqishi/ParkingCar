@@ -1,10 +1,12 @@
 package com.xinluqishi.parkingcar.model.entity;
 
+import com.xinluqishi.parkingcar.base.model.entity.BaseEntity;
+
 /**
  * Created by shikeyue on 17/4/5.
  */
 
-public class User {
+public class User extends BaseEntity{
 
     private String username;
 
