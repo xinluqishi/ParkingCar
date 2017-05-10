@@ -17,4 +17,5 @@ public class ParkingCarApplication extends BaseApplication {
    public String getApiUrl() {
       return IConstant.BASE.BASE_URL;
    }
+
 }
