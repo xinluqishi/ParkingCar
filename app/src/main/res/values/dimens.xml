@@ -34,4 +34,7 @@
     <!--<dimen name="button_height_large"></dimen>-->
     <!--输入框高-->
     <dimen name="ll_input_height">44dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 </resources>

@@ -1,4 +1,18 @@
 <resources>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--no actionbar and title-->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="AppTheme" parent="AppTheme.Base"></style>
+
     <!--水平分割线-->
     <style name="seg_list_line">
         <item name="android:layout_width">match_parent</item>
@@ -27,16 +41,16 @@
         <item name="android:textSize">@dimen/sp_18</item>
         <item name="android:enabled">true</item>
     </style>
-    <!--小按钮[验证码]-->
-    <style name="btn_common_small" parent="@style/Widget.AppCompat.Button.Borderless">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">@dimen/button_height_small</item>
-        <item name="android:textColor">@color/white</item>
-        <item name="android:textSize">@dimen/sp_14</item>
-        <item name="android:background">@drawable/shape_common_rectangle_3</item>
-        <item name="android:enabled">false</item>
+    <!--&lt;!&ndash;小按钮[验证码]&ndash;&gt;-->
+    <!--<style name="btn_common_small" parent="@style/Widget.AppCompat.Button.Borderless">-->
+        <!--<item name="android:layout_width">wrap_content</item>-->
+        <!--<item name="android:layout_height">@dimen/button_height_small</item>-->
+        <!--<item name="android:textColor">@color/white</item>-->
+        <!--<item name="android:textSize">@dimen/sp_14</item>-->
+        <!--<item name="android:background">@drawable/shape_common_rectangle_3</item>-->
+        <!--<item name="android:enabled">false</item>-->
 
-    </style>
+    <!--</style>-->
     <!--白色文字-->
     <style name="txt_common_white">
         <item name="android:layout_width">match_parent</item>
