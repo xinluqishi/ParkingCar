@@ -8,6 +8,8 @@ import com.xinluqishi.parkingcar.base.model.entity.BaseEntity;
 
 public class User extends BaseEntity{
 
+    private static final long serialVersionUID = 1936056658480287561L;
+
     private String username;
 
     private String password;
