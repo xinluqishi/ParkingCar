@@ -36,13 +36,13 @@ public class UserLoginActivity extends AppCompatActivity implements IUserLoginVi
 
     private void initLoginView() {
 
-        editTextUsername = (EditText) findViewById(R.id.login_edit_username);
-        editTextPassword = (EditText) findViewById(R.id.login_edit_password);
-
-        btnLogin = (Button) findViewById(R.id.login_btn_login);
-        btnClear = (Button) findViewById(R.id.login_btn_clear);
-
-        progressBar = (ProgressBar) findViewById(R.id.pb_loading);
+//        editTextUsername = (EditText) findViewById(R.id.login_edit_username);
+//        editTextPassword = (EditText) findViewById(R.id.login_edit_password);
+//
+//        btnLogin = (Button) findViewById(R.id.login_btn_login);
+//        btnClear = (Button) findViewById(R.id.login_btn_clear);
+//
+//        progressBar = (ProgressBar) findViewById(R.id.pb_loading);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override

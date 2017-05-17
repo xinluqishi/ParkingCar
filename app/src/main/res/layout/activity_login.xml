@@ -4,114 +4,114 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/sysBg">
+    android:layout_height="match_parent">
+    <!--&gt;-->
 
-    <RelativeLayout
-        android:id="@+id/login_title"
-        android:layout_width="match_parent"
-        android:layout_height="39dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginBottom="16.5dp"
-        android:background="@color/startPoint"
-        android:gravity="center">
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/login_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="39dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginBottom="16.5dp"-->
+        <!--android:background=""-->
+        <!--android:gravity="center">-->
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/login_title"
-            android:textColor="#fff"
-            android:textSize="15sp" />
-    </RelativeLayout>
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/login_title"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="15sp" />-->
+    <!--</RelativeLayout>-->
 
-    <LinearLayout
-        android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/login_title"
-        android:orientation="vertical">
+    <!--<LinearLayout-->
+        <!--android:id="@+id/linearLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/login_title"-->
+        <!--android:orientation="vertical">-->
 
-        <View style="@style/lineStyle_borderColor" />
+        <!--<View style="" />-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#fff"
-            android:gravity="center_vertical"
-            android:orientation="horizontal"
-            android:paddingLeft="13dp">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="#fff"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingLeft="13dp">-->
 
-            <EditText
-                android:id="@+id/login_edit_username"
-                style="@style/login_etxt_style"
-                android:hint="@string/login_username"
-                android:inputType="number"
-                android:maxLength="11" />
-        </LinearLayout>
+            <!--<EditText-->
+                <!--android:id="@+id/login_edit_username"-->
+                <!--style="@style/login_etxt_style"-->
+                <!--android:hint="@string/login_username"-->
+                <!--android:inputType="number"-->
+                <!--android:maxLength="11" />-->
+        <!--</LinearLayout>-->
 
-        <View style="@style/lineStyle_borderColor" />
+        <!--<View style="@style/lineStyle_borderColor" />-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#fff"
-            android:gravity="center_vertical"
-            android:orientation="vertical"
-            android:paddingLeft="13dp">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="#fff"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="vertical"-->
+            <!--android:paddingLeft="13dp">-->
 
-            <EditText
-                android:id="@+id/login_edit_password"
-                style="@style/login_etxt_style"
-                android:hint="@string/login_password"
-                android:inputType="numberPassword"
-                android:maxLength="6" />
+            <!--<EditText-->
+                <!--android:id="@+id/login_edit_password"-->
+                <!--style="@style/login_etxt_style"-->
+                <!--android:hint="@string/login_password"-->
+                <!--android:inputType="numberPassword"-->
+                <!--android:maxLength="6" />-->
 
-        </LinearLayout>
+        <!--</LinearLayout>-->
 
-        <View style="@style/lineStyle_borderColor" />
+        <!--<View style="@style/lineStyle_borderColor" />-->
 
-        <ProgressBar
-            android:id="@+id/pb_loading"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        <!--<ProgressBar-->
+            <!--android:id="@+id/pb_loading"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent" />-->
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16.5dp"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="horizontal">
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="16.5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal">-->
 
-            <Button
-                android:id="@+id/login_btn_login"
-                style="?android:attr/borderlessButtonStyle"
-                android:layout_width="match_parent"
-                android:layout_height="38.5dp"
-                android:layout_marginLeft="8.25dp"
-                android:layout_marginRight="8.5dp"
-                android:layout_weight="1"
-                android:background="@drawable/selector_cbtn_blue"
-                android:text="@string/login_button"
-                android:textColor="#fff"
-                android:textSize="15sp" />
+            <!--<Button-->
+                <!--android:id="@+id/login_btn_login"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="38.5dp"-->
+                <!--android:layout_marginLeft="8.25dp"-->
+                <!--android:layout_marginRight="8.5dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/selector_cbtn_blue"-->
+                <!--android:text="@string/login_button"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="15sp" />-->
 
-            <Button
-                android:id="@+id/login_btn_clear"
-                style="?android:attr/borderlessButtonStyle"
-                android:layout_width="match_parent"
-                android:layout_height="38.5dp"
-                android:layout_marginLeft="8.5dp"
-                android:layout_marginRight="8.25dp"
-                android:layout_weight="1"
-                android:background="@drawable/shape_cbtn_orange"
-                android:text="@string/login_clear"
-                android:textColor="#fff"
-                android:textSize="15sp" />
+            <!--<Button-->
+                <!--android:id="@+id/login_btn_clear"-->
+                <!--style="?android:attr/borderlessButtonStyle"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="38.5dp"-->
+                <!--android:layout_marginLeft="8.5dp"-->
+                <!--android:layout_marginRight="8.25dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:background="@drawable/shape_cbtn_orange"-->
+                <!--android:text="@string/login_clear"-->
+                <!--android:textColor="#fff"-->
+                <!--android:textSize="15sp" />-->
 
-        </LinearLayout>
-    </LinearLayout>
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
 
 </RelativeLayout>
