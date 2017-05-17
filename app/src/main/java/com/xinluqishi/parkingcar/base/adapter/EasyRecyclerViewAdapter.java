@@ -6,7 +6,9 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.xinluqishi.parkingcar.base.BaseApplication;
+
 import java.util.ArrayList;
 import java.util.List;
 

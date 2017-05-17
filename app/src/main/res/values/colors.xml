@@ -121,25 +121,7 @@
 
     <color name="mainSTxt">#fdb12c</color>
 
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <!--common_tab-->
-    <color name="common_tab_bg">#f6f6f6</color>
-    <color name="main_header_d">#90c7ff</color>
-    <!--p_main-->
-    <color name="p_main_nav">#878787</color>
-    <color name="p_more_blue">#46a1ff</color>
-    <color name="p_main_red">#ff3d57</color>
-    <color name="p_main_yellow">#ffa21d</color>
-    <color name="p_main_price">#ff5d07</color>
 
-    <!--common_transparent_base_blue-->
-    <color name="common_transparent_base_blue">#46a2ff</color>
-    <color name="dialog_header_bg">#586b94</color>
-    <!--c_order-->
-    <color name="order_status_approval">#986db2</color>
-    <color name="order_status_confirmed">#31c17c</color>
     <color name="progress_gray">#9ac6fa</color>
 
 

@@ -1,13 +1,14 @@
 package com.xinluqishi.parkingcar.adapter;
 
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.view.ViewGroup;
 
-import com.camnter.easyrecyclerview.holder.EasyRecyclerViewHolder;
-import com.camnter.easyrecyclerview.widget.EasyRecyclerView;
 import com.xinluqishi.parkingcar.base.adapter.EasyRecyclerViewAdapter;
 import com.xinluqishi.parkingcar.model.entity.HotCarType;
+
+import java.util.List;
 
 /**
  * 按照网上的架构写
@@ -16,8 +17,9 @@ import com.xinluqishi.parkingcar.model.entity.HotCarType;
 
 public class ParkingCarTypeAdapter extends EasyRecyclerViewAdapter<HotCarType> {
 
-    public ParkingCarTypeAdapter() {
 
+    public ParkingCarTypeAdapter(Context context, List<HotCarType> myDataList) {
+        super(context, myDataList);
     }
 
     /**
@@ -44,6 +46,11 @@ public class ParkingCarTypeAdapter extends EasyRecyclerViewAdapter<HotCarType> {
     @Override
     public RecyclerView.ViewHolder onCreate(ViewGroup parent, int viewType) {
         return null;
+    }
+
+    @Override
+    public void onBind(RecyclerView.ViewHolder viewHolder, int RealPosition, HotCarType data) {
+
     }
 
 
