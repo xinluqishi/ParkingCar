@@ -32,14 +32,14 @@ public class NetUtils {
      * @param context
      * @return
      */
-    public static boolean isNetworkConnectedByCmwap(Context context) {
-        NetworkInfo networkInfo = ((ConnectivityManager) context
-                .getSystemService(Context.CONNECTIVITY_SERVICE))
-                .getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
-        return networkInfo != null && networkInfo.isConnected()
-                && networkInfo.getExtraInfo() != null
-                && networkInfo.getExtraInfo().toLowerCase().contains("cmwap");
-    }
+//    public static boolean isNetworkConnectedByCmwap(Context context) {
+//        NetworkInfo networkInfo = ((ConnectivityManager) context
+//                .getSystemService(Context.CONNECTIVITY_SERVICE))
+//                .getNetworkInfo(ConnectivityManager.TYPE_MOBILE);
+//        return networkInfo != null && networkInfo.isConnected()
+//                && networkInfo.getExtraInfo() != null
+//                && networkInfo.getExtraInfo().toLowerCase().contains("cmwap");
+//    }
 
     /**
      * 连接的是否是2G网络

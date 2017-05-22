@@ -6,20 +6,13 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.graphics.Color;
 import android.net.Uri;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.ListAdapter;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -31,8 +24,6 @@ import com.xinluqishi.parkingcar.base.view.BaseActivity;
 import com.xinluqishi.parkingcar.base.view.widget.CustomProgressDialog;
 
 import java.io.File;
-import java.io.IOException;
-import java.util.List;
 
 /**
  * 窗口工具类,提供可重用的窗口
