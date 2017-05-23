@@ -73,7 +73,7 @@ dependencies {
     compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.4.0-RC1'
     compile 'com.camnter.easyrecyclerview:easyrecyclerview:1.1.0'
-    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:v1.9.7'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.16'
     compile 'com.android.support:recyclerview-v7:25.0.1'
     compile 'com.huxq17.xrefreshview:xrefreshview:3.6.6'
     compile 'com.belerweb:pinyin4j:2.5.1'
