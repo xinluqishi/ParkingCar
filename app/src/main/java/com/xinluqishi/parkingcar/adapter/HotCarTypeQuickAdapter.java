@@ -18,6 +18,6 @@ public class HotCarTypeQuickAdapter extends BaseQuickAdapter<Car, BaseViewHolder
     }
 
     @Override
-    protected void convert(BaseViewHolder holder, Car item) {
+    protected void convert(BaseViewHolder holder, Car data) {
     }
 }
