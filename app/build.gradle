@@ -84,6 +84,7 @@ dependencies {
     compile 'com.bartoszlipinski:recyclerviewheader2:2.0.1'
     //使用Sql的方式查询List数据
     compile 'com.squareup:android-times-square:1.4.1@aar'
+    compile 'org.xutils:xutils:3.3.38'
 
     testCompile 'junit:junit:4.12'
 }

@@ -4,6 +4,7 @@ import android.content.Context;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 /**
  * 存储所有车的数据集合
@@ -18,6 +19,12 @@ public class CarsLab {
 
     private CarsLab(Context context) {
         myCars = new ArrayList<>();
+        for (int i = 0; i < 100; i++) {
+            Car car = new Car();
+            car.setCarLabel("Car #" + i);
+            car.setCarType("Middle Type");
+            myCars.add(car);
+        }
     }
 
     public static CarsLab get(Context context) {
@@ -25,5 +32,18 @@ public class CarsLab {
             sCarsLab = new CarsLab(context);
         }
         return sCarsLab;
+    }
+
+    public List<Car> getMyCars() {
+        return myCars;
+    }
+
+    public Car getMyCar(UUID uuid) {
+        for (Car car : myCars) {
+            if (car.getCarUUID().equals(uuid)) {
+                return car;
+            }
+        }
+        return null;
     }
 }
